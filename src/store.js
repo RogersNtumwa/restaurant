@@ -41,7 +41,7 @@ const reducer = combineReducers({
 
 const store = createStore(
   reducer,
-  inititalState,
+  //   inititalState,
   composeWithDevTools(applyMiddleware(...middleware))
 );
 

@@ -4,10 +4,12 @@ import { globalStyle } from "./GlobalStyles";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Feature from "./components/Feature";
+import Alert from "./components/Alert";
 
 function App() {
   return (
     <Router>
+      <Alert />
       <globalStyle />
       <Hero />
       <Menu heading="Your Favourate Pizza Delivered" />
