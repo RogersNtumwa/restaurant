@@ -44,6 +44,7 @@ export const HeroH1 = styled.h1`
   font-size: clamp(2.5rem, 10vw, 3rem);
   margin-bottom: 1rem;
   letter-spacing: 3px;
+  color: #fff;
 `;
 export const HeroP = styled.p`
   font-size: clamp(2rem, 2.5vw, 3rem);

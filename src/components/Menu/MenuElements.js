@@ -20,13 +20,14 @@ export const ProductCard = styled.div`
   margin: 1rem 2rem;
   width: 300px;
   box-shadow: 2px 2px 2px 2px rgba(66, 117, 77);
-  padding: 1rem;
+  /* padding: 1rem; */
 `;
 export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
   /* box-shadow: 8px 8px #105e2a; */
+  /* object-fit: cover; */
 `;
 export const ProductHeading = styled.h1`
   font-size: clamp(2rem, 2.5rem, 3rem);
@@ -60,6 +61,7 @@ export const Button = styled.button`
   background: #e31837;
   color: #fff;
   transition: 0.2s ease-out;
+  margin-bottom: 1rem;
   &:hover {
     background: #105e2a;
     transition: 0.2s ease-out;

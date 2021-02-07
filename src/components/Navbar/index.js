@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
 import { Bars, Nav, Navicon, NavLink } from "./NavbarElements";
 
+
 const Navbar = ({ toggle }) => {
+  
   return (
     <Fragment>
       <Nav>
