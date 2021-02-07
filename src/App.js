@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { globalStyle } from "./GlobalStyles";
+import { GlobalStyle } from "./GlobalStyles";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Feature from "./components/Feature";
@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Alert />
-      <globalStyle />
+      <GlobalStyle />
       <Hero />
       <Menu heading="Your Favourate Pizza Delivered" />
       <Feature />
