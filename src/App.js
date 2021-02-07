@@ -1,19 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { GlobalStyle } from "./GlobalStyles";
-import Hero from "./components/Hero";
-import Menu from "./components/Menu";
-import Feature from "./components/Feature";
 import Alert from "./components/Alert";
+import LogInScreen from "./screens/LogInScreen";
+import RegisterScreen from "./screens/RegisterScreen";
+import Main from "./screens/Main";
 
 function App() {
   return (
     <Router>
       <Alert />
       <GlobalStyle />
-      <Hero />
-      <Menu heading="Your Favourate Pizza Delivered" />
-      <Feature />
+      <Route path="/" component={Main} exact />
+      <Route path="/signin" component={LogInScreen} exact />
+      <Route path="/register" component={RegisterScreen} exact />
     </Router>
   );
 }
