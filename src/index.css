@@ -21,6 +21,9 @@ code {
   font-size: 1.5rem;
   color: #fff;
 }
+#special h1 {
+  color: #fff;
+}
 .alert .aler-danger {
   background-color: #ff0000;
 }
