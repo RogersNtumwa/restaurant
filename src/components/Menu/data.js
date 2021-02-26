@@ -5,25 +5,16 @@ export const data = [
     alt: "Pizza",
     name: "Margherita",
     desc:
-      "Marinara sauce, basil itiliano sausage roma tomatoes olives and pasta",
+      "Deceptively simple, the Margherita pizza is made with basil, fresh mozzarella, and tomatoes. There’s a reason it’s an Italian staple and one of the most popular types of pizza in the country",
     price: 15.5,
   },
   {
     image:
-      " https://res.cloudinary.com/dlloahxji/image/upload/v1611686283/farmhouse_xugunv.jpg",
+      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_548340295.jpg.optimal.jpg",
     alt: "Pizza",
-    name: "Farm House",
+    name: "Meat Pizza",
     desc:
-      "Marinara sauce, basil itiliano sausage roma tomatoes olives and pasta",
-    price: 15.5,
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dlloahxji/image/upload/v1611686282/Peppy_Paneer_b4gqzw.jpg",
-    alt: "Pizza",
-    name: "Peppy Paneer.",
-    desc:
-      "Marinara sauce, basil itiliano sausage roma tomatoes olives and pasta",
+      "If pepperoni just isn’t enough, and you’re looking for a pie with a bit more heft, a meat pizza is a perfect and popular choice. Pile on ground beef and sausage for a hearty meal.",
     price: 15.5,
   },
   {
@@ -32,25 +23,43 @@ export const data = [
     alt: "Pizza",
     name: "Peppy Paneer.",
     desc:
-      "Marinara sauce, basil itiliano sausage roma tomatoes olives and pasta",
+      "Peppy Paneer is the spicy and tangy Indo Chinese starter dish, made with Indian cottage cheese and vegetables and then flavored with delicious Chinese sauces. It is a great starter or appetizer which can be eaten as it is or with the fried rice.",
     price: 15.5,
   },
   {
     image:
-      "https://res.cloudinary.com/dlloahxji/image/upload/v1611686282/Peppy_Paneer_b4gqzw.jpg",
+      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_570541132.jpg.optimal.jpg",
     alt: "Pizza",
-    name: "Peppy Paneer.",
+    name: "Veggie Pizza.",
     desc:
-      "Marinara sauce, basil itiliano sausage roma tomatoes olives and pasta",
+      "When you want to jazz up your cheese pizza with color and texture, veggies are the perfect topping. And you’re only limited by your imagination. Everything from peppers and mushrooms, to eggplant and onions make for an exciting and tasty veggie pizza.",
     price: 15.5,
   },
   {
     image:
-      "https://res.cloudinary.com/dlloahxji/image/upload/v1611686282/Peppy_Paneer_b4gqzw.jpg",
+      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_184944413.jpg.optimal.jpg",
     alt: "Pizza",
-    name: "Peppy Paneer.",
+    name: "BBQ Chicken Pizza.",
     desc:
-      "Marinara sauce, basil itiliano sausage roma tomatoes olives and pasta",
+      "If you love BBQ chicken and you love pizza, why not put them together? This has long been a cult favorite of sports fans and college kids. The chicken slathered over the top of a pie gives it a tangy, sweet flavor that can’t be beaten",
     price: 15.5,
+  },
+  {
+    image:
+      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_313437680.jpg.optimal.jpg",
+    alt: "Pizza",
+    name: "Hawaiian Pizza.",
+    desc:
+      "Pineapple might not be the first thing that comes to mind when you think pizza. But add in some ham and it creates an unexpectedly solid sweet and salty combination for this type of pizza.",
+    price: 15.5,
+  },
+  {
+    image:
+      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/Buffalo-Chicken-Pizza-1-1024x683.jpg.optimal.jpg",
+    alt: "Pizza",
+    name: "Baffalo Pizza.",
+    desc:
+      "Who says your pizza has to be strictly tomato-sauce based? Branch out with some buffalo sauce on your pie. All its spicy, salty, buttery goodness is a natural pairing for pizza.",
+    price: 20.5,
   },
 ];

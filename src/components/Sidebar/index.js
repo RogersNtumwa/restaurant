@@ -1,34 +1,37 @@
 import React from "react";
-import { NavDropdown } from "react-bootstrap";
-import { logOut } from "../../actions/auth";
-import { useDispatch, useSelector } from "react-redux";
-import { FaUser } from "react-icons/fa";
+// import { NavDropdown } from "react-bootstrap";
+// import { logOut } from "../../actions/auth";
+// import { useDispatch, useSelector } from "react-redux";
+// import { FaUser } from "react-icons/fa";
 import {
   Closeicon,
   Icon,
   SidebarContainer,
   SideBarLink,
   SideBarMenu,
-  SideBarNav,
+  // SideBarNav,
 } from "./SidebarElements";
-import { LinkContainer } from "react-router-bootstrap";
+// import { LinkContainer } from "react-router-bootstrap";
 
 const Sidebar = ({ isOpen, toggle }) => {
-  const userInfo = useSelector((state) => state.auth);
-  const { user, isAuthenticated } = userInfo;
-  const dispatch = useDispatch();
-  const logoutHandler = () => {
-    dispatch(logOut());
-  };
+  // const userInfo = useSelector((state) => state.auth);
+  // const { user, isAuthenticated } = userInfo;
+  // const dispatch = useDispatch();
+  // const logoutHandler = () => {
+  //   dispatch(logOut());
+  // };
   return (
     <SidebarContainer isOpen={isOpen}>
       <Icon onClick={toggle}>
         <Closeicon />
       </Icon>
       <SideBarMenu>
-        <SideBarNav to="/" smooth={true} onClick={toggle}>
+        <SideBarLink to="home" smooth={true} onClick={toggle}>
           Home
-        </SideBarNav>
+        </SideBarLink>
+        {/* <SideBarNav to="/" smooth={true} onClick={toggle}>
+          Home
+        </SideBarNav> */}
         <SideBarLink to="menu" smooth={true} spy={true} onClick={toggle}>
           Menu
         </SideBarLink>
@@ -39,7 +42,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           Kitchen
         </SideBarLink>
 
-        {isAuthenticated ? (
+        {/* {isAuthenticated ? (
           <NavDropdown title={user.name} id="username">
             <NavDropdown.Item onClick={logoutHandler}>LogOut</NavDropdown.Item>
           </NavDropdown>
@@ -49,7 +52,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               <FaUser /> SIGNIN
             </SideBarNav>
           </LinkContainer>
-        )}
+        )} */}
       </SideBarMenu>
     </SidebarContainer>
   );
