@@ -10,7 +10,7 @@ export const data = [
   },
   {
     image:
-      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_548340295.jpg.optimal.jpg",
+      "https://res.cloudinary.com/dlloahxji/image/upload/v1614765906/Meat_Pizza_pvhuzu.jpg",
     alt: "Pizza",
     name: "Meat Pizza",
     desc:
@@ -28,7 +28,7 @@ export const data = [
   },
   {
     image:
-      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_570541132.jpg.optimal.jpg",
+      "https://res.cloudinary.com/dlloahxji/image/upload/v1614765906/Veggie_Pizza_ofwtcb.jpg",
     alt: "Pizza",
     name: "Veggie Pizza.",
     desc:
@@ -37,7 +37,7 @@ export const data = [
   },
   {
     image:
-      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_184944413.jpg.optimal.jpg",
+      "https://res.cloudinary.com/dlloahxji/image/upload/v1614765906/BBQ_Chicken_Pizza_uzxd6s.jpg",
     alt: "Pizza",
     name: "BBQ Chicken Pizza.",
     desc:
@@ -46,7 +46,7 @@ export const data = [
   },
   {
     image:
-      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_313437680.jpg.optimal.jpg",
+      "https://res.cloudinary.com/dlloahxji/image/upload/v1614765906/Hawaiian_Pizza_drkwyy.jpg",
     alt: "Pizza",
     name: "Hawaiian Pizza.",
     desc:
@@ -55,7 +55,7 @@ export const data = [
   },
   {
     image:
-      "https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/Buffalo-Chicken-Pizza-1-1024x683.jpg.optimal.jpg",
+      "https://res.cloudinary.com/dlloahxji/image/upload/v1614766153/Buffalo-Chicken-Pizza_yn30cg.jpg",
     alt: "Pizza",
     name: "Baffalo Pizza.",
     desc:
